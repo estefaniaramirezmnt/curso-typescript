@@ -10,7 +10,3 @@ export class Hero {
     return powers.find (power => power.id === this.powerId)?.desc || 'not found';
   }
 }
-
-export class Hero1{}
-export class Hero2{}
-export class Hero3{}
